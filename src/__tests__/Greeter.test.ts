@@ -1,4 +1,4 @@
-import { Greeter } from '../index';
+import NavigationBar from '../navigation-bar';
 test('My Greeter', () => {
-  expect(Greeter('Carl')).toBe('Hello Carl');
+  expect(NavigationBar('Carl')).toBe('Hello Carl');
 });
